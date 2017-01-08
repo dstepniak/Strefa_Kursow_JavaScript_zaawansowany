@@ -14,3 +14,6 @@
 ### 2.5. Dopasowanie do wzorca - atrybut pattern elementu input, zawierający wyrażenie regularne.
     Input służący do wprowadzania kodu pocztowego posiada atrybut pattern, w którym zapisany zostal wzorzec (jako wyrażenie rególarne). Dodatkowo input posiada atrybut placeholder jako podpowiedź tego wzorca.
     Przeprowadź walidację wprowadzonej do pola wartości. Jeżeli użytkownik wprowadzi wartość niezgodną ze wzorcem, w akapicie o id message pojawi się odpowiedni komunikat.
+
+### 2.6. Wymagane pola - zdarzenie onsubmit.
+    Tablica requiredFieldsIds zawiera id pól, których wypełnienie jest konieczne do wysłania formularza. Jeżeli użytkownik nie wypełni wymaganego pola i będzie próbował wysłać formularz, w akapicie o id message powinien pojawić się odpowiedni komunikat. Dopóki wszystkie wymagane pola nie zostaną wypełnione, wysłanie formularza powinno być zablokowane.
