@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
         // Find position of the first whitespace character
         var expression = / /;
         // Find position of the first occurence of "kurs"
-        var expression = /kurs/;
+        expression = /kurs/;
         // Find position of the first occurence of "kurs", case-insensitive
-        var expression = /kurs/i;
+        expression = /kurs/i;
         // Find position of the first occurence of "kurs", case-insensitive
-        var expression = /kurs/i;
+        expression = /kurs/i;
 
         // The variable storing result of searching
         var result = sourceText.search(expression);

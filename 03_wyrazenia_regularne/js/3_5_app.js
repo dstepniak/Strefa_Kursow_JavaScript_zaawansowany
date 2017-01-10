@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // single replacing
         var expression = /photoshop/;
         // global replacing
-        var expression = /photoshop/g;
+        expression = /photoshop/g;
         // The variable storing a new text
         var newText = "Photoshop";
         // The variable storing result of replacing - changed text
