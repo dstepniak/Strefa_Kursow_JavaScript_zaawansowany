@@ -1,3 +1,4 @@
+# Kurs JavaScript zaawansowany.
 ## 2. Walidacja formularzy.
 ### 2.1. Wymuszanie określonej długości.
     Sprawdź długość wprowadzonych przez użytkownika wartości. Pole Użytkownik powinno mieć od 6 do 12 znaków, a pole hasło od 8 do 20 znaków. Jeżeli warunki nie są spełnione, wyświetl odpowiedni komunikat w akapicie o id message i zatrzymaj przesłanie formularza.
