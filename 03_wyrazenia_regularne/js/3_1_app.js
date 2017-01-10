@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
         // The variable message
         var message = document.getElementById("message");
         // If the value of the input matches to the pattern, the prompt "true" appears in the paragraph message, otherwise the prompt "false" appears.
-        // The march() metchod takes a regular expression as an argument.
+        // The match() method takes a regular expression as an argument.
         if (document.getElementById("field_value").value.match(expression)) {
             message.innerText = "true";
         } else {
