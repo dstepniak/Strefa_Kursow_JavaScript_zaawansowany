@@ -17,6 +17,10 @@ document.addEventListener("DOMContentLoaded", function() {
             // The window alert shows the current result and the position of this result
             alert("Wynik: " + result[0] + " Pozycja: " + result.index);
             allResults += result[0] + ", ";
+            console.log(result);
+            console.log(result[0]);
+            console.log(result.index);
+            console.log(result.input);
         }
         // Setting concatenation of all results as a text of message.
         document.getElementById("message").innerText = "Wyniki: " + allResults;

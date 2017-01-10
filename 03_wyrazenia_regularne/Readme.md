@@ -95,6 +95,7 @@
     Zadeklaruj zmienną `result`.
     Utwórz zmienną `allResults` i przypisz jej początkową wartość "".
     W pętli while ustaw warunek: while ((result = expression.exec(sourceText)) != null).
+    Metoda exec() zwraca tablicę, w której znajduje się bieżący wynik wyszukiwania lub null, gdy nie znaleziono wyrażenia. Tablica wyników posiada właściwości: index - pozycja wyniku w tekście źródłowym, input - tekst źródłowy, length - długość tablicy. Aby pobrać bieżący wynik należy pobrać element z indeksem 0.
     W okienku alert wypisz bieżący wynik oraz jego pozycję (właściwość index).
     W każdym przebiegu pętli do zmiennej `allResults` dodaj bieżący wynik.
     Do akapitu o id="message" wstaw zmienną `allResults`.
