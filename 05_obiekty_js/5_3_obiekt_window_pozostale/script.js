@@ -1,6 +1,6 @@
 window.addEventListener('load',function(){
 
-	// Variable storing button 'open'
+	// Variable storing the 'open' button
 	var bopen = document.getElementById('open');
 
 	bopen.addEventListener('click',function() {
