@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" />
+	<title>Różne techniki JS</title>
+	<link type="text/css" rel="stylesheet" href="bootstrap.min.css" />
+</head>
+
+<body>
+
+	<div id="content" style="margin-left: 100px; margin-top:100px; width:500px;">
+
+		<label>Wprowadź liczbę: </label><input type="text" id="input" /><br>
+	    <input type="submit" id="submit" class="btn" value="Wyślij" />
+
+	</div>
+
+<!-- <script>
+
+var ctn = document.getElementById('content');
+var subBtn = document.getElementById('submit');
+var inputField = document.getElementById('input');
+
+subBtn.addEventListener('click',function(){
+
+	try {
+		var inputValue = inputField.value;
+		if(isNaN(inputValue)){
+			throw "Wyjątek: wartość nie jest liczbą";
+		}
+		if(!inputValue){
+			throw "Wyjątek: wartość jest pusta";
+		}
+		if(inputValue.length > 4){
+			throw "Wyjątek: wartość jest za długa";
+		}
+	}
+	catch(e){
+		alert(e);
+	}
+
+
+});
+
+</script> -->
+
+</body>
+<script src="js/6_5_app.js" type="text/javascript"></script>
+</html>
