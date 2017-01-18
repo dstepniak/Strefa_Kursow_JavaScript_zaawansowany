@@ -65,3 +65,11 @@ Skopiuj skrypt z zadania 7.4. i zmodyfikuj go w następujący sposób:
 * W tej samej pętli utwórz element li - metoda `createElement()` oraz textNode - metoda `createTextNode()`, zapisz je odpowiednio do zmiennych `li` i `textNode`.
 * Dodaj węzeł tekstowy do elementu li oraz element li do listy - użyj metody `appendChild()`.
 Przetestuj działanie skryptu.
+
+### 7.6. JSON i żądania AJAX.
+*Aby skrypt działał poprawnie, wszystkie pliki muszą zostać umieszczone na serwerze zdalnym!*
+Skopiuj skrypt z zadania 7.3. i zmodyfikuj go w następujący sposób:
+* W metodzie `open()` zmień drugi argument (url) na 'data.json'.
+* Usuń okienko alert, do którego wyprowadzony był tekst odpowieedzi.
+* W instrukcji warunkowej (req.readyState === 4) zamień otrzymany tekst odpowiedzi na obiekt JSON - użyj metody `eval()`, a wynik zapisz do zmiennej `jsonObj`: var jsonObj = eval ("(" + req.responseText + ")")
+* Z objektu JSON pobierz nazwę pierwszego produktu, nazwę drugiego produktu, cenę drugiego produktu. Pobrane wartości wprowadź do div o id="data".
