@@ -38,6 +38,7 @@ Przesuń okno stosując różne metody:
 Zamknij okno po upływie trzech sekund. Zastosuj metodę `setTimeout()`, która ustawia funkcję oraz opóźnienie. W funkcji wywołaj metodę `close()`, natomiast opóźnienie ustaw na 3000 ms.
 
 ### 5.4. Właściwości przeglądarki.
+*Aby skrypt działał poprawnie, wszystkie pliki muszą zostać umieszczone na serwerze zdalnym!*
 Do obiektu `window` dodaj Event Listener dla zdarzenia 'load'.
 Pobierz przycisk o id="open" i zapisz go do zmiennej `bopen`.
 Do przycisku dodaj Event Listener dla zdarzenia 'click'.
@@ -49,6 +50,7 @@ Przetestuj właściwości obiektu `navigator`. Otrzymane wartości zapisz do zmi
 * właściwość `userAgent` - informacjie dotyczące przeglądarki: nazwa, wersja, platforma, silnik, nazwa i wersja wydania.
 
 ### 5.5. Obiekt location.
+*Aby skrypt działał poprawnie, wszystkie pliki muszą zostać umieszczone na serwerze zdalnym!*
 Do obiektu `window` dodaj Event Listener dla zdarzenia 'load'.
 Pobierz przycisk o id="button" i zapisz go do zmiennej `btn`.
 Do przycisku dodaj Event Listener dla zdarzenia 'click'.
